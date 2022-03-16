@@ -15,7 +15,9 @@
 
 ## Overview
 
-This is a group project incorporating a new stretch tech, TypeScript. "Lynn's List" is an application for users to maintain and keep track of what restaurants they have been to, want to visit, and/or add to their personalized list. When a user first lands on the home page, they can view a list of individual restaurant information. A user is then able to create their own lists to add specific restaurants to. The user can also view more information about each restaurant by following the Yelp link for that restaurant. This application utilizes the Yelp Fushion API to bring the latest information on restaurants in Denver. 
+This is a group project incorporating a new stretch tech, TypeScript. "Lynn's List" is an application for users to maintain and keep track of what restaurants they have been to, want to visit, and/or add to their personalized list. When a user first lands on the home page, they can view a list of individual restaurant information. A user is then able to create their own lists to add specific restaurants to. The user can also view more information about each restaurant by following the Yelp link for that restaurant. This application utilizes the Yelp Fushion API to bring the latest information on restaurants in Denver.
+
+This MVP was built in a one-week sprint. 
 
 ## Deployed site
 
