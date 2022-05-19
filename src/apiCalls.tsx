@@ -1,8 +1,8 @@
 import cleanData from './utilities';
 
-const apiKey = 'Ad0_XGC0yivo6Othpb0K30Z_KvuGmbz8B1ZNnqP5C0lQSP8SwrVXCSaLLxNwVCWe9DyUojQ6a42vz1KdOmMshvFgTzc-t1uO2XDl1c8_i-bn53L3zRZfXEaI1CIUYnYx';
-
-const url = `https://api.yelp.com/v3/businesses/search?location=Denver&categories=food&limit=50`;
+const apiKey = process.env.REACT_APP_API_KEY;
+const url = process.env.REACT_APP_API_URL;
+const proxyUrl: string = process.env.REACT_APP_PROXY_URL || '';
 
 const checkForError = (response: Response) => {
   if (response.status === 404) {
@@ -19,7 +19,7 @@ const checkForError = (response: Response) => {
 }
 
 const getAllRestaurants = (offset: number = 0) => {
-  return fetch('https://fe-cors-proxy.herokuapp.com', {
+  return fetch(proxyUrl, {
     headers: {
     "Target-URL": `${url}&offset=${offset}`,
     "Authorization": `Bearer ${apiKey}`
