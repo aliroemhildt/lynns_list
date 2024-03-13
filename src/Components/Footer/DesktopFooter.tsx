@@ -9,21 +9,21 @@ const DesktopFooter: React.FC = () => {
       <div className='footer-content hidden-mobile'>
         <section className='project-description'>
           <h3 tabIndex={0}>About</h3>
-            <p tabIndex={0}>This is a Turing Module 3 project built with React.js, TypeScript, and the Yelp Fusion API. It was designed and developed by Lynn Nguyen, Jani Palomino, Daniel O'Connell, Ali Roemhildt.</p>
+          <p tabIndex={0}>This is a Turing Module 3 project built with React.js, TypeScript, and the Yelp Fusion API. It was designed and developed by Ali Roemhildt, Daniel O'Connell, Lynn Nguyen, Jani Palomino.</p>
         <div className='logos'>
           <img src={react_logo} alt='react logo'/>
           <img src={turing_logo} alt='turing logo'/>
         </div>
         </section>
         <div className='social-links'>
-          <h3 tabIndex={0}>Follow Us</h3>
+          
+          <h3 tabIndex={0}>Project Repo</h3>
           <section className='repo'>
-              <h4 tabIndex={0}>Project Repo</h4>
             <a
               href='https://github.com/aliroemhildt/lynns_list'
               target='_blank'
               rel='noreferrer'
-            >github.com/Alynn022/lynns_list</a>
+            >View on GitHub</a>
           </section>
           <section className='github'>
             <h4 tabIndex={0}>GitHub Profiles</h4>

@@ -29,6 +29,11 @@ header {
       }
     }
   }
+
+  .logo:hover,
+  .mobile-logo:hover {
+    cursor: pointer;
+  }
   
   nav {
     flex: 1;
