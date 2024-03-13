@@ -19,7 +19,7 @@ This is a group project incorporating a new stretch tech, TypeScript. "Lynn's Li
 
 ## Deployed site
 
-https://lynns-list.herokuapp.com/
+https://lynnslist.netlify.app/
 
 ## Screenshots 
 
